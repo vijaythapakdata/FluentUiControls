@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fluent-ui-controls-client-side-solution",
+    "id": "94126211-22f0-435a-8e2b-0606ccb5dba7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Vijay Thapak",
+      "websiteUrl": "https://programmerspunidts.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "FluentUiControls description"
+      },
+      "longDescription": {
+        "default": "FluentUiControls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fluent-ui-controls Feature",
+        "description": "The feature that activates elements of the fluent-ui-controls solution.",
+        "id": "29ea2ce8-91be-43b3-98c7-01fdbddee5ae",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fluent-ui-controls.sppkg"
+  }
+}
