@@ -35,7 +35,7 @@ const getItemById=():void=>{
             setAge(responseJSon.Age);
           });
 
-          //smaple
+          //smaple comments
         }
         else{
           response.json().then((responseJson)=>{
